@@ -7,7 +7,8 @@ dataLayer.push({
       item_id: "{/literal}{$pid}{literal}",
       item_name: "{/literal}{$product}{literal}",
       item_category: "{/literal}{$groupname}{literal}",
-      price: parseFloat("{/literal}{$amount}{literal}")
+      price: parseFloat("{/literal}{$amount|replace:',':''}{literal}"),
+      quantity: 1
     }]
   }
 });
