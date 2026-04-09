@@ -1,0 +1,110 @@
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">OweCode Instagram Post</title>
+  <desc id="desc">Premium terminal-inspired Instagram announcement graphic for OweCode, a Go-based intelligent coding agent.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0F14"/>
+      <stop offset="100%" stop-color="#0D131A"/>
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F1720"/>
+      <stop offset="100%" stop-color="#0B1118"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: "JetBrains Mono", "Fira Code", "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, monospace; }
+      .sans { font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+      .muted { fill: #8FA1B3; }
+      .text { fill: #D9E3EE; }
+      .strong { fill: #F5F8FC; }
+      .accent { fill: #7DD3FC; }
+      .panel-stroke { stroke: #1F2A37; stroke-width: 1.5; }
+      .hairline { stroke: #263445; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1080" height="1350" fill="url(#bgGrad)"/>
+  <rect x="36" y="36" width="1008" height="1278" rx="16" fill="none" stroke="#1D2733" stroke-width="2"/>
+
+  <!-- Outer terminal frame -->
+  <g id="frame">
+    <rect x="80" y="90" width="920" height="1170" rx="14" fill="url(#panelGrad)" class="panel-stroke"/>
+    <rect x="80" y="90" width="920" height="52" rx="14" fill="#111A24" stroke="#223042" stroke-width="1.5"/>
+    <circle cx="114" cy="116" r="6" fill="#334155"/>
+    <circle cx="138" cy="116" r="6" fill="#334155"/>
+    <circle cx="162" cy="116" r="6" fill="#334155"/>
+    <text x="200" y="121" class="mono muted" font-size="16" letter-spacing="0.2">owecode://announcement</text>
+    <line x1="80" y1="142" x2="1000" y2="142" class="hairline"/>
+  </g>
+
+  <!-- Title section -->
+  <g id="title-section" transform="translate(120,190)">
+    <text x="0" y="0" class="mono accent" font-size="16" letter-spacing="1.2">PRODUCT ANNOUNCEMENT</text>
+    <rect x="0" y="18" width="460" height="2" fill="url(#accentLine)"/>
+    <text x="0" y="88" class="sans strong" font-size="88" font-weight="700" letter-spacing="-1">OweCode</text>
+    <text x="2" y="132" class="mono muted" font-size="22">An intelligent coding agent built in Go</text>
+    <text x="2" y="166" class="mono muted" font-size="22">for real development workflows</text>
+  </g>
+
+  <!-- Supporting statement -->
+  <g id="supporting-statement" transform="translate(120,410)">
+    <rect x="0" y="0" width="840" height="78" rx="10" fill="#0D1620" stroke="#223042" stroke-width="1.5"/>
+    <text x="24" y="31" class="mono text" font-size="21">
+      Designed for reasoning, execution, verification,
+    </text>
+    <text x="24" y="58" class="mono text" font-size="21">
+      and multi-step code tasks.
+    </text>
+  </g>
+
+  <!-- Feature block -->
+  <g id="feature-block" transform="translate(120,530)">
+    <rect x="0" y="0" width="840" height="430" rx="12" fill="#0C141D" stroke="#223042" stroke-width="1.5"/>
+    <text x="24" y="40" class="mono accent" font-size="18" letter-spacing="0.8">CORE CAPABILITIES</text>
+    <line x1="24" y1="56" x2="816" y2="56" class="hairline"/>
+
+    <!-- Left column -->
+    <g transform="translate(24,92)">
+      <text x="0" y="0" class="mono text" font-size="24">[01] Parallel task execution</text>
+      <text x="0" y="54" class="mono text" font-size="24">[02] Structured reasoning workflow</text>
+      <text x="0" y="108" class="mono text" font-size="24">[03] Automatic verification</text>
+    </g>
+
+    <!-- Right column -->
+    <g transform="translate(24,278)">
+      <text x="0" y="0" class="mono text" font-size="24">[04] Tool-driven code analysis</text>
+      <text x="0" y="54" class="mono text" font-size="24">[05] Built for complex codebases</text>
+      <text x="0" y="108" class="mono text" font-size="24">[06] Fast terminal-first experience</text>
+    </g>
+  </g>
+
+  <!-- Credibility block -->
+  <g id="credibility-block" transform="translate(120,990)">
+    <rect x="0" y="0" width="840" height="92" rx="10" fill="#0D1620" stroke="#223042" stroke-width="1.5"/>
+    <text x="24" y="38" class="mono text" font-size="22">
+      Built for developers who need more than
+    </text>
+    <text x="24" y="68" class="mono text" font-size="22">
+      simple chat responses.
+    </text>
+  </g>
+
+  <!-- CTA -->
+  <g id="cta-section" transform="translate(120,1118)">
+    <rect x="0" y="0" width="840" height="92" rx="10" fill="#0E1B28" stroke="#2A3A50" stroke-width="1.5"/>
+    <rect x="0" y="0" width="6" height="92" fill="url(#accentLine)"/>
+    <text x="24" y="56" class="mono strong" font-size="28">Looking for early testers and feedback</text>
+  </g>
+
+  <!-- Footer -->
+  <g id="footer" transform="translate(120,1248)">
+    <line x1="0" y1="0" x2="840" y2="0" class="hairline"/>
+    <text x="0" y="34" class="mono muted" font-size="16">owecode.dev</text>
+    <text x="840" y="34" text-anchor="end" class="mono muted" font-size="16">Go • Reason • Execute • Verify</text>
+  </g>
+</svg>
